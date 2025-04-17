@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* CSS RESET STYLING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+}
+
+/* HEADER SECTION STYLING */
+header {
+    /* border-bottom: 1px solid #432670; */
+    text-align: center;
+    /* border-style: dashed; */
+    }
+marquee h1 {
+    background-image: url('images/flower.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures image covers the text */
+    background-clip: text; /* Clips background to text shape */
+    -webkit-background-clip: text; /* For Safari/Chrome */
+    color: transparent; /* Makes text transparent to show the image */
+    font-size: 3rem; /* Adjust size as needed */
+    padding: 10px 0; /* Adds space around text */
+   /* border: 8px solid; */
+   /* border-radius: 36px; */
+  }
+
+/* SECTION FIRST LOVE STYLING */
+#first-love{
+    display: flex;
+    align-items: center;
+    gap: 160px;
+    padding: 160px 0;
+}
+/* #text-container h1 {
+    align-items: center;
+    gap: 16px;
+    padding: 16px 0;
+    font-size: 76px;
+  
+} */
+#text-container  h2{
+    /* border: 5px solid red;  */
+    align-items: center;
+    margin-left: 15px;
+    /* border: 1px red solid ; */
+}
+#special{
+    color: #432670;
+    font-size: 28px;
+    font-weight: 700;
+}
+#text-container p{
+    width: 70%;
+    margin-top: 23px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+.Chali{
+    color: red;
+    font-size: 20px;
+    font-weight: 50px;
+}
+#img-container > img{
+    margin-top: 20px;
+    border: 5px red solid ;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+
+/* FOOTER STYLING */
+footer{
+    background-color: #432670;
+    color: #fff;
+    padding: 48px 0;
+  }
+  #footer-ctn > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    /* gap:20px; */
+  }
+  #footer-ctn > div:nth-of-type(1){
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  #icons{
+    display: flex;
+    gap: 40px;
+  }
+  #icons img{
+    width: 30px;
+    height: 30px;
+  }
